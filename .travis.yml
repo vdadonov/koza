@@ -26,5 +26,5 @@ deploy:
   local-dir: public
   on:
     branch: master
-  fqdn: xn--e1adiq.xn--p1ai
+  fqdn: $DOMAIN
 
