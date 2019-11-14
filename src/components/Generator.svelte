@@ -2,7 +2,7 @@
   const formData = {
     minLimit: 10,
     maxLimit: 20,
-    text: '№ 0#-РПП/ЦМ/2019 от',
+    text: '№ 0#',
   };
 
   let generatorData = [];
@@ -75,7 +75,7 @@
     </div>
 
     <div class="ui-generator-text">
-      <input bind:value={formData.text} placeholder="текст, изменяемые цифры обвести ##" type="text" />
+      <input new-password bind:value={formData.text} placeholder="текст, изменяемые цифры обвести ##" type="text" />
     </div>
 
     <div class="ui-generator-button">
