@@ -1,6 +1,9 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+Koza Project
 
 ---
+
+[![Build Status](https://travis-ci.org/vdadonov/koza.svg?branch=master)](https://travis-ci.org/vdadonov/koza)
+
 
 # svelte app
 
