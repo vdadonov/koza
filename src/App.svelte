@@ -6,6 +6,10 @@
   @import './assets/scss/_vars';
 	.container {
     width: 1280px;
+
+    @media only screen and (max-width: 410px) {
+      width: 100% !important;
+    }
     & .ui-generator {
       display: flex;
       justify-content: center;
@@ -25,5 +29,3 @@
     </div>
   </div>
 </div>
-
-<!-- <h1>Hello {name}!</h1> -->
