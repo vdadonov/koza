@@ -10,7 +10,7 @@
   let generatorData = [];
 
   const generateData = () => {
-    if (formData.minLimit && formData.maxLimit && formData.maxLimit > formData.minLimit) {
+    if (formData.minLimit && formData.maxLimit && Number(formData.maxLimit, 10) > Number(formData.minLimit, 10)) {
       generatorData = [];
       let i = Number(formData.minLimit, 10);
       while (i <= formData.maxLimit) {
