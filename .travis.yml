@@ -19,7 +19,7 @@ script:
 
 deploy:
   provider: pages
-  skip-cleanup: true
+  cleanup: true
   github-token: $GITHUB_ACCESS_TOKEN
   target-branch: master
   repo: vdadonov/vdadonov.github.io
